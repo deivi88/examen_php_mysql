@@ -1,0 +1,186 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,ul,li{
+	margin: 0;
+	padding: 0;
+}
+
+#cabecera .navbar{
+    border-radius: 0;
+    background: #011826;
+}
+
+#cabecera .navbar .navbar-brand{
+	color: white;
+}
+
+#cabecera .navbar .navbar-brand:hover{
+	color: #049DBF;
+}
+
+#cabecera .navbar ul li a{
+	color: white;
+}
+
+#cabecera .navbar ul li:hover a{
+	background: #049DBF;
+}
+
+.navbar-toggle{
+	background: #049DBF;
+}
+
+.navbar-toggle .icon-bar{
+	background: white;
+}
+
+#trabajos_aleatorios{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+#last_news .news_title{
+	margin-bottom: 40px;
+	color: white;
+	padding: 20px 0;
+	background: #023859;
+}
+#last_news .separador_news{
+	margin-bottom: 30px;
+}
+
+.vcenter {
+    display: inline-block;
+    float: none;
+}
+
+/* ESTILOS DEL FOOTER */
+
+#pie .redes{
+	background: #011826;
+	font-size: 50px;
+	padding: 60px 0;
+}
+#pie .redes a i{
+	color: white;
+}
+
+#pie .redes a:hover i{
+	color: #049DBF;
+}
+
+#pie .info{
+	background: black;
+	color: white;
+	padding: 30px 0;
+	text-align: center;
+	font-size: 16px;
+}
+
+/* ESTILO CLIENTES */
+
+.section_header{
+	margin-top: 50px;
+	padding: 40px 0;
+	background: #023859;
+	color: white;
+}
+
+/* ESTILO SUBMENUS */
+
+.submenu{
+	margin: 20px 0;
+	padding: 40px 0;
+	background: #049DBF ;
+	border: solid 1px #011826;
+	border-radius: 10px;
+}
+
+.submenu .row{
+	padding: 0;
+}
+
+.submenu ul li {
+	display: inline-block;
+}
+
+.submenu .btn-default{
+	padding: 10px 30px;
+	background: #03658C;
+	border: solid 1px #011826;
+	color: white;
+}
+
+@media screen and (max-width: 768px){
+	.submenu{
+		padding: 20px 0;
+	}
+	.submenu ul li:nth-child(2){
+		margin: 10px 0;
+	}
+}
+
+/* ESTILO NOTICIAS */
+
+.espaciado{
+	padding: 10px 0 50px 0;
+}
+
+#showNews .row, #newsFull .row, #showWorks .row{
+	margin-bottom: 30px;
+}
+
+
+#showNews h2, #newsFull h2, #showWorks h2{
+	margin: 10px 0 20px 0;
+}
+
+#showClients h3{
+	margin-bottom: 30px;
+}
+
+#showNews span, #newsFull span, #showWorks span{
+	display: block;
+	margin-bottom: 20px;
+}
+
+#newsFull img{
+	margin-bottom: 20px;
+}
+
+/* ESTILO FORMULARIO DE CONTACTO */
+
+.form_contact{
+	background-color: #ecf0f3;
+	border: 1px solid #bfd8eb;
+	border-radius: 8px;
+	margin: 30px auto;
+	width: 500px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+.style_form_contact{
+	background-color: #bfd8eb;
+	border-radius: 8px 8px 0px 0px;
+	margin-bottom: 0px;
+	padding: 16px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+}
+.style_form_contact h1{
+	color: #77a5c7;
+	font-size: 36px;
+	text-align: center;
+	text-shadow: 0px 1px #fff;
+}
+.fcontacto{
+	padding: 14px;
+}
+
+.form_contact .btn{
+	margin-top: 10px;
+}
